@@ -1,6 +1,6 @@
 
-def "say_hello.rb"  
-end 
+def "say_hello.rb"
+end
 
 puts  it 'accepts an argument of a name and prints out Hello with that Name' do
     expect($stdout).to receive(:puts).with("Hello Kent Beck!")
